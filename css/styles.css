@@ -3,10 +3,23 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: minmax(0, 720px);
+    grid-template-rows: 3fr, auto;
+    font-family: 'Questrial', sans-serif;
     font-size: 112.5%;
     padding: 20px;
     margin: 0;
+
+
+}
+
+main {
+    display: flexbox;
+}
+
+footer {
+    grid-row: 3 / 3;
 }
 
 #Fig1 {
@@ -15,6 +28,63 @@ body {
 
 .Pictures {
     width: 100%;
+    max-width: 680px;
     height: auto;
     margin: 0;
+}
+
+table {
+    text-align: left;
+    table-layout: fixed;
+    width: 100%;
+}
+.logo-pool {
+    display:grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: 2, 8vw;
+    column-gap: 10px;
+    margin: auto;
+    
+}
+
+.hdl-logo-pool {
+    grid-row: 1;
+    grid-column: 1 / -1
+}
+
+.pic-title {
+    font-size: 75%;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-size: 110%;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+ul {
+    margin-top: 8px;
+}
+
+.socnet-logo {
+    display:flex;
+    width: auto;
+    max-width: 8vw;
+    min-width: 80px;   
+    height: auto;
+
+
+}
+
+.centered-pic-link {
+
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+
 }
