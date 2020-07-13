@@ -17,8 +17,6 @@ nav {
     /* background-color: orange;
     padding: 10px 10px 0px 10px;
     border-radius: 3px 15px 5px 30px; */
-
-
 }
 
 body {
@@ -42,7 +40,8 @@ main {
 }
 
 footer {
-
+    margin-top: 20px;
+    font-size: 75%;
 }
 
 p {
@@ -53,10 +52,42 @@ a {
     margin-bottom: 15px;
 }
 
+/* Table Styles */
+
+table {
+    display: flex;
+    /* align-items: stretch; */
+    width: auto;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 0.2em;
+  }
+    
+ td {
+    padding: .2em .5em;
+    border-radius: .1em;  
+  }  
+  
+  
+  td {
+    font-style: italicnormal;
+    text-align: left;
+    box-shadow: inset 1px 3px 5px -3px black;
+  } 
+
+  tbody tr:nth-child(even) { 
+    background-color: rgb(252, 222, 168); 
+    color: black; 
+  }
+  
+  td:empty{
+    box-shadow: none;
+  }
+
 /* ID Tags */
 
 #main-pic {
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
     width: 100%;
     height: auto;
 }
@@ -126,7 +157,7 @@ a {
     color: white;
     width:auto;
     height: 20px;
-    margin: 8px;
+    margin: 6px;
     padding: 4px 10px 4px 10px;
     text-align: center;
     border: 1px orange;
@@ -142,9 +173,9 @@ a {
     font-style: normal;
     font-weight: bold;
     color: white;
-    width:120px;
+    width:130px;
     height: 30px;
-    margin: 10px;
+    margin: 6px;
     padding: 4px 10px 4px 10px;
     text-align: center;
     border: 1px silver;
