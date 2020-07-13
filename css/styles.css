@@ -19,6 +19,10 @@ nav {
     border-radius: 3px 15px 5px 30px; */
 }
 
+html {
+    align-items: center;
+  }
+
 body {
     font-family: 'Questrial', sans-serif;
     font-size: 112.5%;
@@ -29,8 +33,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-
 }
 
 main {
@@ -107,6 +109,7 @@ table {
 }
 
 #social-contact {
+    margin-top: 20px;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -119,6 +122,10 @@ table {
 
 #cv {
 
+}
+
+#bio-outline {
+    text-align: justify;
 }
 
 
@@ -150,7 +157,7 @@ table {
 .tag-list-item {
     text-indent: 0px;
     /* box-sizing: content-box; */
-    box-shadow: hotpink;
+    box-shadow: orange;
     font-size: 100%;
     font-style: italic;
     font-weight: bold;
@@ -168,12 +175,13 @@ table {
 .nav-item {
     text-indent: 0px;
     text-decoration: none;
+    text-align: center;
     /* box-sizing: content-box; */
     font-size: 100%;
     font-style: normal;
     font-weight: bold;
     color: white;
-    width:130px;
+    width:125px;
     height: 30px;
     margin: 6px;
     padding: 4px 10px 4px 10px;
@@ -197,6 +205,19 @@ table {
 }
 
 .centered-pic-link {
+
+}
+
+/* Media Queries */
+@media only screen and (min-width: 769px) {
+
+    body {
+        width: 800px;
+    }
+
+    /* header {
+        position: fixed;
+    } */
 
 }
 
