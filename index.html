@@ -10,57 +10,52 @@
 </head>
 <body>   
     <header>
-        <h1>Dennis John</h1>
-        <p>About Me</p>
-        <nav>
-            <a href=#Interessen>Interessen</a>
-            <a href=#Skills>Skills</a>
-            <a href=#Kontakt>Kontakt</a>
-            <a href=#Socialnet>Soziale Netze</a>
-            <a href=#Bio>Biografie</a>    
-            <a href=#CV>Lebenslauf</a> 
+        <h1 id="hdl-header">Dennis John</h1>
+        <nav id="nav-header">
+            <a class="nav-item" href=#contact>Kontakt</a>
+            <a class="nav-item" href=#bio>Biografie</a>    
         </nav>
-        <figure id="Fig1">
+    </header>
+    <main>
+        <figure id="main-pic">
             <img class="Pictures" src=img/dj1.jpg alt="" height="350px" width="500px">
             <figcaption class="pic-title">Zusammen mit meinem Sohn am Strand in Sankt-Peter-Ording</figcaption>
         </figure>
-    </header>
-    <main>
-        <section id="Interessen">
+        <section id="interests">
             <h2>Meine Interessen</h2>
-            <ul>
-                <li>Koreanisch</li>
-                <li>WebDev</li>
-                <li>Hiking</li>
-                <li>Rent A Car</li>
+            <ul class="tag-list">
+                <li class="tag-list-item">#Koreanisch</li>
+                <li class="tag-list-item">#WebDev</li>
+                <li class="tag-list-item">#Hiking</li>
+                <li class="tag-list-item">#Rent A Car</li>
             </ul>
         </section>
-        <section id="Skills">
+        <section id="skills">
             <h2>Meine Skills</h2>
-            <ul>
-                <li>Consulting</li>
-                <li>Franchise</li>
-                <li>Business Management</li>
-                <li>Negotiation</li>
+            <ul class="tag-list">
+                <li class="tag-list-item">#Consulting</li>
+                <li class="tag-list-item">#Franchise</li>
+                <li class="tag-list-item">#Management</li>
+                <li class="tag-list-item">#Negotiation</li>
             </ul> 
         </section>
-        <section id="Kontakt">
+        <section id="main-contact">
             <h2>Kontakt</h2>
             <p>
             Dennis John<br>
-            Simindaero<br>
-            Anyang<br>
-            Republik Korea<br>
+            Reeperbahn 157<br>
+            20359 Hamburg<br>
             </p>
+            <a href="mailto:dennis.john11@gmail.com">dennis.john11(at)gmail.com</a><br>
+            <a href="+491754592533">+49 (0)175 459 25 33</a>
         </section>
-        <section class="logo-pool">
-            <h2 class="hdl-logo-pool"> You can find me here...</h2>
+        <section id="social-contact" class="logo-pool">
             <a class="centered-pic-link" href="href=https://github.com/djo42"><img class="socnet-logo" src=img/git-small.png alt="" height="75px"></a>
             <a class="centered-pic-link" href="https://codepen.io/djo42"><img class="socnet-logo" src=img/cdpn-small.png alt="" height="75px"></a>
             <a class="centered-pic-link" href=""><img class="socnet-logo" src=img/lnkd-small.png alt="" height="75px"></a>
         </section>
-        <section id="Bio">
-            <article id="Bio">
+        <section id="bio">
+            <article>
                 <h2>Biografie</h2>
                 <p> 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus condimentum turpis ac consequat. Nullam in dapibus ligula. Sed consectetur aliquet odio id condimentum. Nunc nisl nulla, auctor nec leo id, tristique ultrices elit. Sed sit amet orci elit. Duis ut erat ligula. Aliquam dolor nisl, sodales commodo magna vitae, hendrerit ultricies erat. Mauris vel enim libero. In hac habitasse platea dictumst.
@@ -69,7 +64,7 @@
                 </p>
             </article>
         </section>
-        <section id="CV">
+        <section id="cv">
             <h2>Lebenslauf</h2>
             <table>
                 <tr>
