@@ -1,0 +1,23 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Persoenliche Webseite",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djo42/personal-website.git"
+  },
+  "author": "Dennis John (dennis.john11@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djo42/personal-website/issues"
+  },
+  "homepage": "https://github.com/djo42/personal-website#readme",
+  "dependencies": {
+    "node": "^14.5.0",
+    "sass": "^1.26.10"
+  }
+}
