@@ -1,5 +1,9 @@
 /* Unique Main Tags */
 
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     margin-top: 0px;
 
@@ -14,9 +18,6 @@ h2 {
 nav {
     height: 30px;
     margin: 0px;
-    /* background-color: orange;
-    padding: 10px 10px 0px 10px;
-    border-radius: 3px 15px 5px 30px; */
 }
 
 html {
@@ -26,7 +27,9 @@ html {
 body {
     font-family: 'Questrial', sans-serif;
     font-size: 112.5%;
+    line-height: 1.5em;
     background-color: whitesmoke;
+    padding: 15px;
 }
 
 header {
@@ -57,25 +60,22 @@ a {
 /* Table Styles */
 
 table {
+    font-family: 'Questrial', sans-serif;
+    font-size: 100%;
     display: flex;
-    /* align-items: stretch; */
-    width: auto;
-    text-align: left;
-    border-collapse: separate;
-    border-spacing: 0.2em;
-  }
-    
- td {
-    padding: .2em .5em;
-    border-radius: .1em;  
-  }  
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width:100%;
+  } 
   
   
   td {
     font-style: italicnormal;
     text-align: left;
-    box-shadow: inset 1px 3px 5px -3px black;
-  } 
+    padding: 5px;
+  }
+
 
   tbody tr:nth-child(even) { 
     background-color: rgb(252, 222, 168); 
@@ -94,14 +94,6 @@ table {
     height: auto;
 }
 
-#interests {
-
-}
-
-#skills {
-
-}
-
 #main-contact {
     display: flex;
     flex-direction: column;
@@ -116,14 +108,6 @@ table {
 
 }
 
-#bio {
-
-}
-
-#cv {
-
-}
-
 #bio-outline {
     text-align: justify;
 }
@@ -133,13 +117,13 @@ table {
 
 .Pictures {
     width: 100%;
-    max-width: 768px;
     height: auto;
     margin: 0;
 }
 
 .pic-title {
-    font-size: 75%;
+    font-size: 100%;
+    line-height: 1em;
 }
 
 .tag-list {
@@ -151,32 +135,29 @@ table {
     align-items: stretch;
     list-style: none;
     list-style-position: inside;
-    /* justify-content: space-around; */
 }
 
 .tag-list-item {
     text-indent: 0px;
-    /* box-sizing: content-box; */
     box-shadow: orange;
     font-size: 100%;
     font-style: italic;
     font-weight: bold;
     color: white;
     width:auto;
-    height: 20px;
+    height: auto;
     margin: 6px;
     padding: 4px 10px 4px 10px;
     text-align: center;
     border: 1px orange;
     background-color: orange;
-    border-radius: 3px 15px 5px 30px;
+    border-radius: 10px;
 }
 
 .nav-item {
     text-indent: 0px;
     text-decoration: none;
     text-align: center;
-    /* box-sizing: content-box; */
     font-size: 100%;
     font-style: normal;
     font-weight: bold;
@@ -188,24 +169,8 @@ table {
     text-align: center;
     border: 1px silver;
     background-color: silver;
-    border-radius: 3px 15px 5px 30px;
+    border-radius: 10px;
  
-}
-
-.logo-pool {
-
-}
-
-.centered-pic-link {
-
-}
-
-.socnet-logo {
-
-}
-
-.centered-pic-link {
-
 }
 
 /* Media Queries */
